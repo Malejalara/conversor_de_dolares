@@ -5,7 +5,8 @@ function pesoColombiano() {
     resultado= montoenpesos / dolarActual 
     tasadecambio=resultado * 0.07
     valorfinal=resultado-tasadecambio
-  
+
+    
 
     if(resultado<=0){
         alert('operacion no valida')
